@@ -1,0 +1,26 @@
+
+.total {
+    font-family:Georgia,serif;
+    color: white;
+    background-color: black;
+    font-variant: small-caps; 
+    font-weight: bold;
+    font-size: 5em;
+    height: 60px;
+    padding: 50px;
+    align: centre;
+}
+.topleft {
+    width:33.33%;
+    
+}
+.topright {
+ width:33.33%;
+}
+.topcenter {
+    width:33.33%;
+}
+.top {
+    display: flex;
+    height: 200px;
+}

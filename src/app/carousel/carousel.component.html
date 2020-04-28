@@ -1,0 +1,11 @@
+<p>Current news websites front page</p>
+<ul>
+  <div *ngFor="let item of slideItems;let i = index"> 
+    <img  *ngIf="i == counter" @move [src]="slideItems[i].src" alt="item.title">
+  </div>
+</ul>
+
+
+<button (click)="showPreviousImage()">previous</button> || 
+<button (click)="showNextImage()">next</button>
+

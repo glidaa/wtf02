@@ -1,0 +1,15 @@
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+.body {
+    font-family:Georgia,serif;
+    color: white;
+    background-color: black;
+    font-variant: small-caps; 
+    font-weight: bold;
+    font-size: 5em;
+       display: flex;
+}
+.app-root {
+    color: white;
+    background-color: black;
+}
